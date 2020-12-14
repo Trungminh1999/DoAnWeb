@@ -1,0 +1,122 @@
+header {
+  width: 100%;
+  height: 100px;
+  font-size: 10px;
+  background-color: white; }
+  header .header_navbar {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    height: 100%; }
+    header .header_navbar .imgbanner {
+      height: 100%; }
+      header .header_navbar .imgbanner a img {
+        height: 100%; }
+    header .header_navbar .menu-items-box {
+      display: flex;
+      align-items: center; }
+      header .header_navbar .menu-items-box a {
+        text-decoration: none;
+        font-size: 20px;
+        padding: 50px;
+        color: gray; }
+      header .header_navbar .menu-items-box a:hover {
+        color: black; }
+    header .header_navbar .menu-search {
+      display: flex;
+      align-items: center;
+      padding-left: 40px; }
+      header .header_navbar .menu-search input {
+        width: 200px;
+        height: 25px; }
+      header .header_navbar .menu-search a img {
+        width: 23px;
+        height: 23px; }
+    header .header_navbar .menu-user-cart {
+      display: flex;
+      align-items: center; }
+      header .header_navbar .menu-user-cart a {
+        padding-left: 50px; }
+        header .header_navbar .menu-user-cart a img {
+          width: 23px;
+          height: 23px; }
+
+.container {
+  padding: 20px;
+  width: 100%;
+  height: 100%; }
+  .container .banner a img {
+    width: 100%; }
+  .container .banner2 a img {
+    width: 100%;
+    height: 600px; }
+  .container .menu-container {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #202120;
+    padding: 10px; }
+    .container .menu-container a {
+      padding: 50px;
+      padding-right: 50px;
+      color: white;
+      text-decoration: none; }
+    .container .menu-container a:hover {
+      color: gray; }
+  .container .banner3 .ban-items {
+    border: 1px solid black; }
+  .container .banner3 a h2 {
+    font-family: 'Oswald', sans-serif; }
+  .container .banner3 a img {
+    width: 100%;
+    height: 400px; }
+  .container .banner3 a span {
+    text-decoration: none; }
+  .container .user {
+    display: flex;
+    align-items: center;
+    height: 300px; }
+    .container .user a {
+      text-decoration: none;
+      color: black; }
+      .container .user a h2 {
+        font-family: 'Oswald', sans-serif; }
+      .container .user a span {
+        font-family: 'Open Sans Condensed', sans-serif; }
+
+.container-cart {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center; }
+  .container-cart .banner4 {
+    width: 100%;
+    height: 100%;
+    color: black; }
+    .container-cart .banner4 a {
+      text-decoration: none;
+      color: black; }
+  .container-cart .main .title {
+    font-family: 'Oswald', sans-serif;
+    padding-top: 50px; }
+
+footer {
+  font-family: 'Oswald', sans-serif;
+  height: 600px;
+  padding: 25px; }
+  footer .footer-detail .footer-items {
+    font-family: 'Oswald', sans-serif;
+    padding: 20px; }
+    footer .footer-detail .footer-items #text {
+      width: 200px; }
+    footer .footer-detail .footer-items #btnsm {
+      width: 50px; }
+  footer .footer-detail ul li {
+    list-style: none; }
+    footer .footer-detail ul li a {
+      text-decoration: none;
+      color: black; }
+    footer .footer-detail ul li a:hover {
+      color: gray; }
+
+/*# sourceMappingURL=homePage.css.map */
